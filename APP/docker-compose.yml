@@ -1,0 +1,14 @@
+#Docker-Compose PROD
+version: '3.3'
+
+services:
+  bemol-app-next:
+    ports:
+      - 3000:3000
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/usr/pages
+      - /usr/node_modules
+      - /usr/.next

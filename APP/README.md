@@ -9,10 +9,6 @@ Apenas clonar ou baixar o repositório e descompactar!
 ### Pré-Requisitos
 
 ```
-cd app
-```
-
-```
 Node js e NPM
 ```
 
@@ -31,50 +27,6 @@ npm run dev
 ```
 
 Ou você pode usar o docker compose up
-
-# Bemol GraphQL API
-
-Projeto feito com base nos requisitos apresentados no teste do Sidia!
-
-## Começando
-
-Apenas clonar ou baixar o repositório e descompactar!
-
-### Pré-Requisitos
-
-```
-cd api
-```
-
-```
-Node js e NPM
-```
-
-### Instalando
-
-Você precisa seguir os seguintes passos!
-
-```
-npm install
-```
-
-Quando finalizado
-
-```
-npx prisma generate
-```
-
-Quando finalizado subir o container do banco
-
-```
-docker compose up
-```
-
-E Finalmente rodar a aplicacao
-
-```
-npm run dev
-```
 
 ## Autor
 
